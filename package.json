@@ -1,0 +1,16 @@
+{
+  "name": "node-raft",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "lib/node-raft.js",
+  "devDependencies": {
+	  "mocha": "2.3.3"
+  },
+  "dependencies": {
+    "restify": "4.0.3"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  }
+}
